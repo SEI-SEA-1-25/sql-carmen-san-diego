@@ -115,6 +115,8 @@ world=# SELECT name, capital FROM countries WHERE code = 'BRA';
  Brazil |     211
    name
 ----------
+world=# SELECT name FROM cities WHERE id = 211;
+
  Bras�lia
 
 -- Clue #7: She knows we're on to her – her taxi dropped her off at the international airport, and she beat us to
